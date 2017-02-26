@@ -128,10 +128,17 @@ header {
 
 /* About Me */
 
-.about_me_body {
+.content_body {
   display: flex;
-  flex-direction: column;
-  padding: 25px 100px;
+  justify-content: space-between;
+  width: 900px;
+}
+
+.about_me_body {
+  justify-content: center;
+  align-content: center;
+  width: 900px;
+  padding: 20px 100px;
   font-family: 'Amiko', sans-serif;
   color: #b3b5b7;
   font-size: 15px;
@@ -141,4 +148,77 @@ header {
 .first_paragraph {
   padding-bottom: 25px;
   color: #4f555e;
+}
+
+/* Info Section */
+
+.info_section {
+  font-family: 'Amiko', sans-serif;
+  color: #b3b5b7;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+.resume {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgba(40, 201, 145, .9);
+  color: white;
+  margin: 20px 0px;
+  padding: 5px;
+  height: 20px;
+  width: 160px;
+  border-radius: 5px;
+}
+
+.resume span {
+  font-size: 13px;
+  padding-left: 7px;
+}
+
+.resume img {
+  padding-left: 7px;
+  height: 90%;
+  width: 10%;
+}
+
+.contact {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact .contact_info {
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.contact ul {
+  color: #4f555e;
+}
+
+.contact li {
+  padding: 5px 0px;
+}
+
+.contact_info li {
+  color: #b3b5b7;
+}
+
+.contact span {
+  font-size: 11px;
+  padding: 5px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.gallery img {
+  height: 80%;
+  width: 80%;
+  border-radius: 100%;
 }
