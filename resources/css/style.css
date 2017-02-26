@@ -1,0 +1,144 @@
+/* Global Elements */
+
+body {
+  display: block;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header */
+
+.nav_bar {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+
+.nav_bar img {
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  padding-right: 10px;
+  opacity: .8;
+}
+
+.facebook img {
+  width: 30px;
+  height: 30px;
+  padding-top: 15px;
+  padding-right: 30px;
+  opacity: .8;
+}
+
+header {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/background_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.initials img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.initials {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.name_box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  margin-top: 20px;
+  font-family: 'Ek Mukta', sans-serif;
+}
+
+.name {
+  color: white;
+  opacity: .9;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 7px 13px;
+}
+
+.title {
+  color: white;
+  font-family: 'Amiko', sans-serif;
+  opacity: .9;
+  font-size: 13px;
+  font-weight: 100;
+  padding-top: 20px;
+}
+
+/* Photo */
+
+.pic {
+  display: flex;
+  justify-content: center;
+}
+
+.pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-top: 80px;
+  border: 5px solid white;
+}
+
+/* Content */
+
+.about_me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_me span {
+  color: #4f555e;
+  font-family: 'Ek Mukta', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.main_body {
+  margin-top: 200px;
+}
+
+.grey_line {
+  margin-top: 15px;
+  border: 2px solid #4f555e;
+  width: 30px;
+}
+
+/* About Me */
+
+.about_me_body {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 100px;
+  font-family: 'Amiko', sans-serif;
+  color: #b3b5b7;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.first_paragraph {
+  padding-bottom: 25px;
+  color: #4f555e;
+}
