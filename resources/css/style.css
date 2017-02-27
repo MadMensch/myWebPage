@@ -253,3 +253,102 @@ header {
   padding: 10px;
   border-radius: 10px;
 }
+
+.timeline_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline_container span { /* Changes shape of box */
+  color: white;
+  font-family: 'Ek Mukta', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.date_left { /* Date */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.date {
+  color: white;
+  background-color: #d0d4d8;
+  font-family: 'Ek Mukta', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 50px;
+}
+
+.date_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.timeline_left { /* Timeline Container */
+  border-right: solid #d0d4d8;
+  width: 400px;
+  height: 700px;
+}
+
+.timeline_right {
+  border-left: solid #d0d4d8;
+  width: 400px;
+  height: 700px;
+}
+
+.job_experience_left { /* Moves Experience box in container */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.job_experience_left span {
+  background-color: #0e2242;
+}
+
+.job_experience_right span {
+  background-color: #0e2242;
+}
+
+.job_experience_right { /* Moves Experience box up or down */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 55px;
+}
+
+.timeline_mark {
+  border: solid #d0d4d8;
+
+}
+
+.job_experience_right p {
+  padding-left: 10px;
+  font-family: 'Ek Mukta', sans-serif;
+  font-size: 12px;
+  color: #4b4c4f;
+}
+
+.job_experience_left p {
+  padding-right: 10px;
+  font-family: 'Ek Mukta', sans-serif;
+  font-size: 12px;
+  color: #4b4c4f;
+}
